@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    background-color: rgb(74, 170, 165);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#nameLogo {
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/aqua.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+.main_about_me {
+    background-color: #ffffff;
+    position: relative;
+    margin-top: -750;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    margin-top: -4rem;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+}
