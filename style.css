@@ -4,6 +4,12 @@ html, body {
     padding: 0px;
 }
 
+body {
+    background-image: url("./Assets/Images/aqua.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
 .navbar-brand {
     background-color: rgb(74, 170, 165);
     font-family: 'Times New Roman', Times, serif;
@@ -19,15 +25,11 @@ html, body {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./Assets/Images/aqua.jpg");
-    background-size: auto;
-    background-position: center;
 }
 
 .main_about_me {
     background-color: #ffffff;
     position: relative;
-    margin-top: -750;
 }
 
 h2 {
