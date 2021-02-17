@@ -1,46 +1,55 @@
-html, body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-image: url("./Assets/Images/aqua.jpg");
-    background-size: auto;
-    background-position: center;
+  background-image: url("./Assets/Images/aqua.jpg");
+  background-size: auto;
+  background-position: center;
 }
 
 .navbar-brand {
-    background-color: rgb(74, 170, 165);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+  /* background-color: rgb(74, 170, 165); */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 
 #nameLogo {
-    color: white;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .hero {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 25px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 .main_about_me {
-    background-color: #ffffff;
-    position: relative;
+  background-color: #ffffff;
+  position: relative;
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+  font-family: "Times New Roman", Times, serif;
+  color: #4aaaa5;
 }
 
 footer {
-    position: relative;
-    z-index: 1;
-    margin-top: -4rem;
-    border-top: 5px solid #4aaaa5;
-    background-color: #666666;
+  position: relative;
+  z-index: 1;
+  margin-top: -4rem;
+  border-top: 5px solid #4aaaa5;
+  background-color: #666666;
+}
+
+.fab,
+.fas {
+  color: black;
 }

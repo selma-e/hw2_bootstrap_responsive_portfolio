@@ -1,100 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <!-- Adding the bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!-- Adding my CSS stylesheet -->
-  <link rel="stylesheet" href="style.css">
-  <title>About Me/Index</title>
-</head>
+    <!-- Adding the bootstrap stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-<body>
-  <!-- Grabbing a nav bar from bootstrap and adding a background image.
-  I also made sure to set the nav-item to active that matched with the html file I was on so it would highlight the correct page. -->
-  <div class="hero">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#" id="nameLogo">Selma Elgabalawy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <!-- Adding font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Adding my CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>About Me/Index</title>
+  </head>
 
-    <!-- Adding a portfolio container with a card body to physically contain the 300x300 images. I made sure they were responsive. -->
-    <div class="container col-md-8 mt-5">
-      <div class="card">
-        <div class="card-body mb-5">
-          <article class="col-md-8 main_portfolio">
-            <main class="main_portfolio p-3">
-              <div class="row">
-                <h2 class="colored_header"><b>Portfolio</b></h2>
-                <hr>
-              </div>
-              <div class="row">
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
+  <body>
+    <!-- Grabbing a nav bar from bootstrap and adding a background image.
+    I also made sure to set the nav-item to active that matched with the html file I was on so it would highlight the correct page. -->
+    <div class="hero">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="nameLogo">Selma Elgabalawy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <!-- Adding a portfolio container with a card body to physically contain the 300x300 images. I made sure they were responsive. -->
+      <div class="container col-md-8 mt-5">
+        <div class="card">
+          <div class="card-body mb-5">
+            <article class="col-md-8 main_portfolio">
+              <main class="main_portfolio p-3">
+                <div class="row">
+                  <h2 class="colored_header"><b>Portfolio</b></h2>
+                  <hr>
                 </div>
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
+                <div class="row">
+                  <div class="col-sm-12 col-md-10 col-lg-6">
+                    <!-- <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box"> -->
+                      <div class="porfolio-img img-fluid port-image" style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/yMqRPzqw8fjVc8CW5J" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://carolinayo.github.io/the-gifd-of-food/">Click to Deploy!</a></p>
+                  <p>In this project, I utilized the Meal DB and Giphy API to show the user a Gif for every recipe searched. It also utilizes localStorage to store your favorite recipes.</p>
+                    </div>
+                  <div class="col-sm-12 col-md-10 col-lg-6">
+                    <!-- <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box"> -->
+                      <div class="porfolio-img img-fluid port-image mb-1" style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/0UWSeKgukDzYTWV99F" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://shrouded-waters-32593.herokuapp.com/">Click to Deploy!</a></p>
+                      <p>In this project, I created a burger eating app. The user enters a burger that writes to a SQL database. The burger appears in a list and they have the option to devour it to remove it from the list.</p>
+                    </div>
+                  <div class="col-sm-12 col-md-10 col-lg-6">
+                    <!-- <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box"> -->
+                      <div class="porfolio-img img-fluid port-image mb-1" style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/NWeWa0vlv9QQSIJdzC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://vast-atoll-24354.herokuapp.com/">Click to Deploy!</a></p>
+                      <p>In this project, I created a fitness tracker that allows you to enter new workouts and track all workouts done in the last 7 days. You can then view a graphical dashboard of the total duration and details of all workouts. This information is pulled from Mongo DB.</p>
+                    </div>
+                  <div class="col-sm-12 col-md-10 col-lg-6">
+                    <!-- <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box"> -->
+                      <div class="porfolio-img img-fluid port-image mb-1" style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/Vc61kM82uSAvRVZOpV" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://shielded-falls-12466.herokuapp.com/">Click to Deploy!</a></p>
+                      <p>In this project, I created a budget tracking app that has the ability to add or subtract funds both online and with service workers and the indexDB offline. It then displays in a graph the changes in your total budget over time.</p>
+                    </div>
+                  <!-- <div class="col-sm-12 col-md-10 col-lg-6">
+                    <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box">
+                  </div>
+                  <div class="col-sm-12 col-md-10 col-lg-6">
+                    <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
+                      alt="image_box">
+                  </div> -->
                 </div>
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
-                </div>
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
-                </div>
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
-                </div>
-                <div class="col-sm-12 col-md-10 col-lg-6">
-                  <img class="porfolio-img img-fluid port-image mb-1" src="./Assets/Images/image_box.png"
-                    alt="image_box">
-                </div>
-              </div>
-          </article>
+            </article>
+          </div>
         </div>
       </div>
+  
     </div>
 
-  </div>
+    <!-- Adding a footer -->
+    <!-- <footer class="text-center py-3">
+      <p>&copy; Copyright 2021 Selma Elgabalawy</p>
+    </footer> -->
 
-  <!-- Adding a footer -->
-  <footer class="text-center py-3">
-    <p>&copy; Copyright 2020 Selma Elgabalawy</p>
-  </footer>
-
-  <!-- Adding the javascript bootstrap information -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
-
-</body>
-
+    <!-- Adding the javascript bootstrap information -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
